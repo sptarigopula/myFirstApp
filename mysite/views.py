@@ -13,3 +13,6 @@ def welcome_user(request, name: str):
 
 def calculate_sum(request, first: int, second: int):
     return HttpResponse(first+second)
+
+def calculate_diff(request, first: int, second:int):
+    return HttpResponse(first-second)
